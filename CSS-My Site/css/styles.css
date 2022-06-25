@@ -1,0 +1,121 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 400%;
+  color: #444771;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  color: #444771;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #55598d;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: black;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 50px;
+  border-width: thick;
+  border-color: #40514E;
+  margin: 75px auto;
+}
+.top-container{
+  background-color: #92A9BD;
+  position:relative;
+  padding-top: 150px;
+
+}
+.middle-container{
+  margin: 50px auto;
+}
+.bottom-container{
+  background-color: #55598d;
+  padding-top: 15px;
+
+}
+.top-cloud{
+  position: absolute;
+  top:70px;
+  right:30%;
+}
+.bottom-cloud{
+  position: absolute;
+  top:320px;
+  left:30%;
+}
+.profile{
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.computer-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+
+}
+.face{
+  background-color: black;
+  border-radius: 50%;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #444771;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.intro{
+  width:30%;
+  margin: auto;
+}
+.contact{
+  width:30%;
+  margin: 20px auto 60px;
+}
+
+.copyright{
+  color:white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
